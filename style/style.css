@@ -23,15 +23,16 @@
 
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     margin: 0 170px;
+    
 }
 
 .nav-title{
     font-weight: 800px;
     font-size: 33px;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 
 nav ul li{
@@ -202,10 +203,10 @@ main section{
     
 }
 
-.section-title {
+/* .section-title {
     margin-bottom: 80px;
 
-}
+} */
 
 
 /* footer style */
@@ -254,5 +255,8 @@ textarea {
 .section-title{
     margin-bottom: 80px;
 }
-
+/* nav{
+    display: flex;
+    align-items: center;
+} */
 
