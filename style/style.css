@@ -260,3 +260,61 @@ textarea {
     align-items: center;
 } */
 
+
+/* responsive media layout */
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width:576px){
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        
+
+    }
+    .about,footer{
+        flex-direction: column;
+        padding: 20px;
+        /* margin: none; */
+
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    .about-items{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile-photo{
+        width: 100%;
+    }
+    nav, nav > ul{
+        flex-direction: column;
+    }
+        
+    .btn-primary{
+        margin: 10px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:577px) and (max-width:992px){
+    .banner{
+        flex-direction: column;
+    }
+}
