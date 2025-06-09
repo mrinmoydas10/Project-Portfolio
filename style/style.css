@@ -21,7 +21,7 @@
 
 /* Nav Style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,13 +29,13 @@ nav{
     margin-bottom: 100px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800px;
     font-size: 33px;
     /* margin-bottom: 150px; */
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin: 25px;
 }
